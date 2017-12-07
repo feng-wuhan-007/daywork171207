@@ -1,0 +1,1 @@
+cmd_/home/fengmc/fdata/demodriver/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/fengmc/fdata/demodriver/hello.ko /home/fengmc/fdata/demodriver/hello.o /home/fengmc/fdata/demodriver/hello.mod.o
