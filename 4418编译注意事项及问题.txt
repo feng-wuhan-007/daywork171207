@@ -1,0 +1,17 @@
+1.安装编译android的依赖（Ubuntu16.04的）
+2.Openjdk1.7的java版本
+3.安装mkimage:  sudo apt install u-boot-tools
+4.在s5p4418v5/linux下 执行make和make uImage 
+5.回到s5p4418v5下，执行source build/envsetup.sh,    
+ lunch 选择12. aosp_routonalpha-userdebug
+6.在s5p4418v5下执行make -j8  或者./mk
+
+
+*********************171113*******************************
+problem1：连接内网AP wifi不能自动重连（AP断电再上电）
+answer1：路径s5p4418v5/frameworks/base/services/core/java/com/android/server/connectivity/NetworkMonitor.java +635   在private int isCaptivePortal(){
+       
+       if(subx) return 204; // add  
+       
+}
+
