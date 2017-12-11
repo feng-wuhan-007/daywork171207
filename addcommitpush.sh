@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
 #add ""
-git commit -m "add java openjdk1.7&& the config android environment txt"
+git commit -m "add idr420-1 code Barcode"
 git push
