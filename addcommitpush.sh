@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
 #add ""
-git commit -m "add idr420-1 code Barcode"
+git commit -m "add one patent photo"
 git push
