@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
 #add ""
-git commit -m "add one patent photo"
+git commit -m "20171214 acer nothing"
 git push
