@@ -1,5 +1,5 @@
 #!/bin/bash
-testing=`date`
+testing=date
 echo "The date and time are: " $testing
 today=$(date +%y%m%d)
 #today="171213"
