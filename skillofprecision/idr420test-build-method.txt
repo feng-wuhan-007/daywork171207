@@ -1,0 +1,17 @@
+first:
+	source build/envsetup.sh
+	lunch  rk3368_32-userdebug    4
+
+second:
+	sh make.sh  or ./make.sh
+	12 make_all
+third:
+	sh fengmakeallsystem.sh
+
+	cat fengmakeallsystem.sh
+	#!/bin/bash                                                                                                                                                                                                 ./make.sh 3 && ./make.sh 4 && ./make.sh 6 && ./make.sh 7 && ./make.sh 8
+
+fourth:
+
+fifth:
+	

@@ -1,5 +1,5 @@
 #include "test.h"
-static int li=9;
+ int li=9;
 int max(int a,int b)
 {
 	int max;
