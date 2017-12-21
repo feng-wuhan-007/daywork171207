@@ -1,5 +1,10 @@
-one step: unzip  rtl8192eu-linux-driver-master.zip
-two step:cd rtl8192eu-linux-driver-master
-three step:sudo make
-four step:sudo make install
-five step:reboot
+first step: 
+	unzip  rtl8192eu-linux-driver-master.zip  -C ./
+second step:
+	cd rtl8192eu-linux-driver-master
+third step:
+	sudo make
+fourth step:
+	sudo make install
+fifth step:
+	reboot
