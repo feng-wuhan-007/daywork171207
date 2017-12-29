@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-	int *ptr=NULL;
+	int *ptr;
+	cout<<ptr<<endl;
 	int var=1;
 	ptr=&var;
 	cout<<ptr<<endl;
