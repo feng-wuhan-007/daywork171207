@@ -7,6 +7,7 @@ int main()
 	ptr=&var;
 	cout<<ptr<<endl;
 	cout<<"ptr-->var="<<*ptr<<endl;
+	cout<<"var="<<var<<endl;
 	return 0;
 
 }
