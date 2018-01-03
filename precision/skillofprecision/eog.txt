@@ -1,0 +1,3 @@
+
+open photo command:
+	eog *.jpg
