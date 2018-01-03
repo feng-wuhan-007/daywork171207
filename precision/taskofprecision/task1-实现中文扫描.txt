@@ -1,0 +1,12 @@
+时间:171201-171215
+工作任务：iDR420 scanner 中文支持
+source:
+ idr420test/kernel/drivers/i2c/i2c-serial.c
+ idr420test/external/routon_scanner
+
+实现方案，参考: iDR420-1
+ mtk420/packages/apps/BarcodeServices
+
+
+
+完成时间:171229
