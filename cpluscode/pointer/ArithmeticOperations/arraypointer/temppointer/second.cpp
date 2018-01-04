@@ -15,5 +15,6 @@ int main()
 		cout<<*ptr[j]<<endl;
 	}
 	cout<<"ptr"<<ptr[2]<<endl;
+	cout<<"var"<<var<<endl;
 	return 0;
 }
