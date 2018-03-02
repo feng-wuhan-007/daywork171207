@@ -1,0 +1,6 @@
+<Projects version="2.0">
+	<Project active="1">hello.cfp</Project>
+	<File active="0">test1.cpp</File>
+	<File active="1">test2.cpp</File>
+	<File active="0">test2.h</File>
+</Projects>
