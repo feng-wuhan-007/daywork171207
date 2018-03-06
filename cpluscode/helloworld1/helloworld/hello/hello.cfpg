@@ -1,6 +1,7 @@
 <Projects version="2.0">
 	<Project active="1">hello.cfp</Project>
 	<File active="0">test1.cpp</File>
-	<File active="1">test2.cpp</File>
+	<File active="1">test3</File>
+	<File active="0">C:\Program Files (x86)\C-Free 5\mingw\include\c++\3.4.5\iostream</File>
 	<File active="0">test2.h</File>
 </Projects>

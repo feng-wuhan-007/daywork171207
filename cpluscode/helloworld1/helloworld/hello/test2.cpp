@@ -1,7 +1,11 @@
-#include "test2.h"
-//Box::length;
-//Box::height;
-int Box::method()
+namespace ll
 {
-	cout << "123" ;
+	class Jd
+{
+	public:
+		int sail;
+		int bill;
+};
+	
 }
+

@@ -9,12 +9,13 @@
 </Folder>
 <Folder name="Header Files">
 	<File>test2.h</File>
+	<File>test3.h</File>
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="4" x="3" y="11">test1.cpp</Attribute>
-<Attribute topline="1" x="17" y="6">test2.cpp</Attribute>
-<Attribute topline="4" x="3" y="6">test2.h</Attribute>
+<Attribute topline="1" x="20" y="5">test1.cpp</Attribute>
+<Attribute topline="1" x="2" y="10">test2.cpp</Attribute>
+<Attribute topline="1" x="2" y="7">test2.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
