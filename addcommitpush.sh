@@ -2,7 +2,7 @@
 git add .
 #add ""
 
-git commit -m "modify addcommitpush.sh"
+git commit -m "add pythonscript directory "
 
 #git commit -m "20171214 nothing"
 
