@@ -1,4 +1,4 @@
-#include <stdlib.h>
+/*#include <stdlib.h>
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -19,4 +19,21 @@ sleep(2);
 }
   printf("count=%d\n",count);
   return 0;
+}*/
+#include <iostream>
+using namespace std;
+int main()
+{
+char *const s1="string";
+//s1="abc";    error
+//*s1='w';     error
+cout<<s1<<endl;
+const char *s2="string";
+s2="nba";
+cout<<s2<<endl;
+char *s3="string";
+//*s3='k';     error
+cout<<s3<<endl;
+return 0;
+
 }
