@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include "test.h"
 //#include <cstring>
 using namespace std;
 //#define private public
@@ -39,11 +40,13 @@ void Get(int *p)
 {
 cout <<"*p="<<*p<<endl;
 }
+
 int main()
 {
 cout<<"welcome to wuhan"<<endl;
 ///////////////////////////////
 int age=20;
+
 Get(&age);
 struct Books Book1;
 //koob.title="hahaha";
@@ -70,5 +73,9 @@ A a;
 A *p =new A();
 delete p;
 //a.feng=10;
+/////////////////Test class
+Test t1;
+t1.print1();
+t1.fi();
 return 0;
 }
