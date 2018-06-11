@@ -77,5 +77,6 @@ delete p;
 Test t1;
 t1.print1();
 t1.fi();
+cout <<"2018.06.03="<<endl;
 return 0;
 }
