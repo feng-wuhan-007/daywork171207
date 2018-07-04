@@ -22,18 +22,23 @@ sleep(2);
 }*/
 #include <iostream>
 using namespace std;
+#include <vector>
+
 int main()
 {
-char *const s1="string";
-//s1="abc";    error
-//*s1='w';     error
-cout<<s1<<endl;
-const char *s2="string";
-s2="nba";
-cout<<s2<<endl;
-char *s3="string";
-//*s3='k';     error
-cout<<s3<<endl;
-return 0;
+  vector<int> v1;
+  
+  char *const s1="string";
+  *s1 = 'q';
+  //s1="abc";    error
+  //*s1='w';     error
+  cout<<s1<<endl;
+  const char *s2="string";
+  s2="nba";
+  cout<<s2<<endl;
+  char *s3="string";
+  //*s3='k';     error
+  cout<<s3<<endl;
+  return 0;
 
 }
