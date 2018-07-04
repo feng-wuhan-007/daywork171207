@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string.h>
 #include "test.h"
+#include <stdio.h>
+#include <vector>
 //#include <cstring>
 using namespace std;
 //#define private public
@@ -40,9 +42,11 @@ void Get(int *p)
 {
 cout <<"*p="<<*p<<endl;
 }
-
+ const int fil = 8;
 int main()
 {
+vector<int> v1;
+
 cout<<"welcome to wuhan"<<endl;
 ///////////////////////////////
 int age=20;
@@ -77,5 +81,14 @@ delete p;
 Test t1;
 t1.print1();
 t1.fi();
+cout <<"2018.06.03="<<endl;
+//////////
+
+int *up = (int *)&fil;
+*up = 6;
+cout<<"*up = "<<*up<<endl;
+cout<<"fill = "<<fil<<endl;
+printf("up = %p\n",up);
+printf("&fill = %p\n",&fil);
 return 0;
 }
