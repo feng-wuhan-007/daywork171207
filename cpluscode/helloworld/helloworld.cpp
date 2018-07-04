@@ -29,7 +29,7 @@ int main()
   vector<int> v1;
   
   char *const s1="string";
-  *s1 = 'q';
+  //*s1 = 'q';
   //s1="abc";    error
   //*s1='w';     error
   cout<<s1<<endl;
